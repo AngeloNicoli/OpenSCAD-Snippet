@@ -2,7 +2,7 @@ SNIPPET COLLECTION
 
 RELEASED under the General Public License version 2 (GPL2), same license as OpenSCAD.
 
-Folder placed in "asset (STL)" are licensed CC0.
+Content in folder "Asset (STL)" is licensed CC0.
 
 Output of Software is not covered by GPL-2.0 (TERMS AND CONDITIONS CLAUSE 0)
 
