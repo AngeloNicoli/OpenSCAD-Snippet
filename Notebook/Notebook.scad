@@ -1,3 +1,5 @@
+// Angelo Nicolì 2023
+
 
 module ring(){
 rotate([90,0,0])
