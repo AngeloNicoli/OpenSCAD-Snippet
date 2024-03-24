@@ -1,4 +1,4 @@
-Flange_Height = 10;
+Flange_Height = 18;
 Total_Height = 38;
 Step_Height = 2;
 Hole_Diameter = 10; 
@@ -16,10 +16,12 @@ color("lime",1.0){
             cylinder(Flange_Height,100,100,$fn=30);
             
             r = 80;
+            
+            
             // Flange Holes
             for (i=[0:90:359]) {
                 translate([r*cos(i),r*sin(i),-1])
-                cylinder(12,10,10,$fn=40);
+                cylinder(Flange_Height+2,10,10,$fn=40);
              
                 translate([0,0,-1]) 
                 cylinder(12,50,50,$fn=50);  
