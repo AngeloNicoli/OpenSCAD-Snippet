@@ -1,6 +1,8 @@
 Flange_Height = 10;
 Total_Height = 38;
 Step_Height = 2;
+Hole_Diameter = 10; 
+Hole_Center_Distance = 100;
 
 color("lime",1.0){
     difference(){
