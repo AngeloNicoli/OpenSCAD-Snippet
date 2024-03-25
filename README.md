@@ -11,7 +11,11 @@ Output of Software is not covered by GPL-2.0 (TERMS AND CONDITIONS CLAUSE 0)
 
 <p float="left">
 <img title="a title" alt="Alt text" src="/Image/Base cabinet (Gray).png" width="192" height="108">
-  <img title="a title" alt="Alt text" src="/Image/Pipe.png" width="192" height="108">
-  <img title="a title" alt="Alt text" src="/Image/Notebook.png" width="192" height="108">
-  <img title="a title" alt="Alt text" src="/Image/Bookshelf.png" width="192" height="108">
+<img title="a title" alt="Alt text" src="/Image/Base cabinet (Wood).png" width="192" height="108">
+<img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="108">
+<img title="a title" alt="Alt text" src="/Image/Bookshelf.png" width="192" height="108">
+  
+<img title="a title" alt="Alt text" src="/Image/Pipe.png" width="192" height="108">
+<img title="a title" alt="Alt text" src="/Image/Notebook.png" width="192" height="108">
+<img title="a title" alt="Alt text" src="/Image/Bookshelf.png" width="192" height="108">
 </p>
