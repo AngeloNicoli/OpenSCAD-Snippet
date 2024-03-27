@@ -6,10 +6,11 @@ module regular_polygon(order = 6, r=1){
  
  
  
- 
+ color("#a8b0b2"){
  regular_polygon(order = 6);
 
 
  translate([0,0,-3.5])
- cylinder(3,0.5,0.5, $fn = 20);
+ cylinder(3,0.5,0.5, $fn = 40);
+ }
  

@@ -6,11 +6,12 @@ module regular_polygon(order = 6, r=1){
      polygon(coords);
  }
  
- 
+color("#a8b0b2"){
 difference(){
  regular_polygon(order = 6);
  
  
  cylinder(2,0.7,0.7,center = true, $fn=30 );
+ }
  }
 
