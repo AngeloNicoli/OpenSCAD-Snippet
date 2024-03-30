@@ -1,4 +1,4 @@
-
+module Bookshelf_02(){
 
 difference(){
 color("#bd9476")
@@ -29,3 +29,6 @@ cube([8,16,0.6],center=true);
 color("#4f200f")
 translate([0,0,10.5])
 cube([12,21,1],center=true);
+}
+
+ Bookshelf_02();
