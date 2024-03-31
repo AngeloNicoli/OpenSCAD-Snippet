@@ -61,5 +61,4 @@ module Building_02() {
     }
 }
 
-
 Building_02();

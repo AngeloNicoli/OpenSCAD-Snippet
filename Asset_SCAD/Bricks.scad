@@ -1,5 +1,8 @@
+
 // get a single number
 
+
+module Bricks(){
 colors = ["#cb6b6b","#dd7d7d","#9e3333","#842020"];
 
 
@@ -15,3 +18,10 @@ square([single_rand,single_rand2]);
 }
 
 
+}
+
+
+Bricks();
+
+translate([10,0,0])
+Bricks();

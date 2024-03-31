@@ -1,3 +1,5 @@
+module Flange(){
+color("#c0c6c7")
 difference(){
 cylinder(10,100,100,$fn=30);
 
@@ -11,3 +13,7 @@ for (i=[0:90:359]) {
 }
 
 }
+
+}
+
+Flange();

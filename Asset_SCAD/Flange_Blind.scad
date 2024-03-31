@@ -1,3 +1,5 @@
+module Flange_Blind(){
+color("#c0c6c7")
 difference(){
 cylinder(10,100,100, $fn = $preview ? 32 : 64);
 
@@ -8,3 +10,7 @@ for (i=[0:90:359]) {
 }
 
 }
+
+}
+
+Flange_Blind();
