@@ -1,8 +1,8 @@
 module Base_cabinet_Wood(){
 
-    translate([0,0,3])
+    translate([0,0.01,3])
     color("#8b6914")
-    cube([2.3,4,0.2]);
+    cube([2.3,3.98,0.2]);
 
     difference(){
     color("#cdaa7d")

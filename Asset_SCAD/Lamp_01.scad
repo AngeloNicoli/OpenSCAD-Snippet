@@ -1,3 +1,5 @@
+module Lamp_01(){
+
 color("#c1cdcd")
 cylinder(1,10,10, center= true);
 
@@ -23,3 +25,6 @@ cylinder(17,8,7, center= true);
 
 }
 
+}
+
+Lamp_01();

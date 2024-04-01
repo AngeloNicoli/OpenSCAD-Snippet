@@ -1,5 +1,5 @@
 // Angelo Nicolì 2023 - Licensed GPL-2.0
-
+module Table_Round(){
 
 Table_Leg = [1,1,10];
 
@@ -34,3 +34,6 @@ cylinder(r = Upper_Part_Size, h = Upper_Part_Height,$fn = 60 , center=true);
 
 }
 
+}
+
+Table_Round();

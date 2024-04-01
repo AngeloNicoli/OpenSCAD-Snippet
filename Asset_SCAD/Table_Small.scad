@@ -1,3 +1,5 @@
+module Table_Small(){
+
 color("#954520")
 linear_extrude(height = 0.10)
 
@@ -50,3 +52,6 @@ cylinder(0.5,0.08,0.08, $fn =30);
 }
 }
 
+}
+
+Table_Small();

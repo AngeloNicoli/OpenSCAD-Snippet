@@ -1,3 +1,4 @@
+module Hole_Plate(){
 
 // Plate
 Plate_Thickness = 5;
@@ -8,7 +9,7 @@ interasse = 50;
 interasse_2 = 80;
 first_hole = [20,20,-2];
 Hole_Diameter = 5;
-Plate_Thickness = 5;
+
 
 translate([first_hole[0] - interasse,-20,-2]){
 %cube([40,1,1]);
@@ -39,3 +40,7 @@ cylinder(12,10,10, center = true);
 
 
 }
+
+}
+
+Hole_Plate();

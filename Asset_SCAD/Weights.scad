@@ -1,9 +1,10 @@
+module Weights(){
 
 module regular_polygon(order = 6, r=1){
      angles=[ for (i = [0:order-1]) i*(360/order) ];
      coords=[ for (th=angles) [r*cos(th), r*sin(th)] ];
      polygon(coords);
- }
+}
  
  
 module weight(){ 
@@ -32,3 +33,7 @@ linear_extrude(height= 0.2, scale = 0.8)
  
  color("#3b3b3b")
  cylinder(5,0.3,0.3);
+ 
+}
+ 
+Weights();

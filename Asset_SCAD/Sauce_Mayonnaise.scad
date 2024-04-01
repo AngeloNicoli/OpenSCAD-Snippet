@@ -1,3 +1,4 @@
+module Sauce_Mayonnaise(){
 
 color("#ffffee"){
 // color("#ec0606"){
@@ -35,6 +36,6 @@ color("#f9f2f2"){
 translate([0,0,3.7])
 cylinder(1, 0.4,0.2, $fn = 30);
 }
+}
 
-
-
+Sauce_Mayonnaise();

@@ -1,3 +1,4 @@
+module Gear_01(){
 
 color("#a8b0b2")
 union(){
@@ -12,8 +13,7 @@ for (i=[0:step:359]) {
     dx = r*cos(angle);
     dy = r*sin(angle);
     translate([dx,dy,0])
-    rotate([0,0,angle])
-   
+    rotate([0,0,angle])  
     {
  
   
@@ -34,3 +34,8 @@ translate([14,0,0])
 polygon(points=[[0,-4],[7,-2],[7,2],[0,4]]);
 }
 */
+
+}
+
+
+Gear_01();

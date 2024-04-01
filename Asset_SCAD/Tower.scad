@@ -1,3 +1,5 @@
+module Tower(){
+
 color("#CCCCCC"){
 translate([0,0,-10])
 cylinder(10,33,33,$fn=30,);
@@ -7,9 +9,6 @@ cylinder(60,32,30,$fn=40);
 
 translate([0,0,-100])
 cylinder(40,35,35,$fn=40);
-
-
-
 
 difference(){
 cylinder(7,33,33,$fn=30);
@@ -38,8 +37,9 @@ for (i=[0:step:359]) {
 }    
 }
 }
-
+}
+}
 }
 
-}
+Tower();
 

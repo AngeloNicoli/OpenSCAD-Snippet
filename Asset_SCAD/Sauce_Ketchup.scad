@@ -1,4 +1,4 @@
-
+module Sauce_Ketchup(){
 
 color("#ec0606"){
 translate([0,0,0.5])
@@ -34,5 +34,6 @@ translate([0,0,3.7])
 cylinder(1, 0.4,0.2, $fn = 30);
 }
 
+}
 
-
+Sauce_Ketchup();
