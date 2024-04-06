@@ -27,6 +27,7 @@ polygon(points=[[0,0],[25,-4],[25,4]]);
 }
 
 
+color("#f2e8d7"){
 difference(){
 Arc_01();
 
@@ -43,4 +44,5 @@ cube([60,50,100], center = true);
 
 translate([-48,0,0])
 cube([60,50,100], center = true);
+}
 }

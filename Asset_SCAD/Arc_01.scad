@@ -26,7 +26,7 @@ polygon(points=[[0,0],[25,-2],[25,2]]);
 }
 }
 
-
+color("#f2e8d7"){
 difference(){
 Arc_01();
 
@@ -35,4 +35,5 @@ cylinder(50,20,20, center= true);
 translate([0,-25,0])
 cube([55,50,100], center = true);
 
+}
 }
