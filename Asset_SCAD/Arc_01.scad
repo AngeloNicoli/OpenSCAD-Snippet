@@ -1,5 +1,7 @@
 module Arc_01(){
 
+module Arco(){
+
 color("#a8b0b2")
 
 
@@ -28,7 +30,7 @@ polygon(points=[[0,0],[25,-2],[25,2]]);
 
 color("#f2e8d7"){
 difference(){
-Arc_01();
+Arco();
 
 cylinder(50,20,20, center= true);
 
@@ -37,3 +39,7 @@ cube([55,50,100], center = true);
 
 }
 }
+
+}
+
+Arc_01();

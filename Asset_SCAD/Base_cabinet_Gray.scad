@@ -1,8 +1,8 @@
 module Base_cabinet_Gray(){
 
-translate([0,0,3])
+translate([0,0.01,3])
 color("#c2c2c2")
-cube([2.3,4,0.2]);
+cube([2.3,3.98,0.2]);
 
 color("#9e9e9e")
 cube([2,4,3]);

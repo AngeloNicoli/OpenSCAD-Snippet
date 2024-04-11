@@ -1,18 +1,18 @@
 
-module Street_04(col ="#3b4747"){
+module Street_05(col ="#3b4747"){
 color(col)
 cube([4,2,0.2], center = true);
 
-for (i = [-1:0.25:1] ){
+for (i = [-1.4:0.7:1.4] ){
 
-translate([0,i,0.10])
+translate([i,0,0])
 color("white")
-cube([0.1,0.2,0.01], center = true);
+cube([0.4,1.8,0.22], center = true);
+}
 
 translate([1.8,0,0.10])
 color("white")
 cube([0.05,2,0.01], center = true);
-
 
 translate([-1.8,0,0.10])
 color("white")
@@ -27,8 +27,6 @@ color("GRAY")
 cube([0.3,2,0.2], center = true);
 
 }
-}
 
 
-
-Street_04();
+Street_05();
