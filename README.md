@@ -1,5 +1,5 @@
 SNIPPET COLLECTION 
-Number of ASSET: 41
+Number of ASSET: 60
 
 RELEASED under the General Public License version 2 (GPL2), same license as OpenSCAD.
 
