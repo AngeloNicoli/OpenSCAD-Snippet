@@ -31,9 +31,13 @@ use <Asset_SCAD/Fireplace.scad>
 use <Asset_SCAD/Flange.scad>
 
 
+use <Asset_SCAD/Flange_Blind.scad>
+use <Asset_SCAD/Flange_Weld_Neck.scad>
+use <Asset_SCAD/Gear_01.scad>
 
-
-
+use <Asset_SCAD/Grid_01.scad>
+use <Asset_SCAD/Hexagon_socket_screw_keys.scad>
+use <Asset_SCAD/Hole_Plate.scad>
 
 translate([0,5,0])
 Base_cabinet_Wood();
@@ -45,3 +49,4 @@ translate([0,10,0])
 Beam_C();
 
 Chair_01();
+

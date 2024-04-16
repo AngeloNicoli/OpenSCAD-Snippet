@@ -1,5 +1,7 @@
 
-module Coin(v){
+module Coin(Mat = 0){
+
+module Coin_Core(v){
 
 difference(){
 
@@ -19,10 +21,17 @@ difference(){
 }
 }
 
+
 bronze = ["#CD7F32","#7b4c1e"]; 
 silver = ["#c4aead","#cdc9c9"];
 gold = ["#ffd700","#daa520"];
 
-Coin(silver);
+Material = [bronze,silver,gold];
+
+Coin_Core(Material[Mat]);
+
+}
+
+Coin();
 
 
