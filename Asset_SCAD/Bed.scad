@@ -1,5 +1,5 @@
 color("#badbed")
-cube([1.86,1,0.3], center = true);
+cube([1.86,1,0.29], center = true);
 
 color("#cdaa7d"){
 translate([0,0,-0.1])
