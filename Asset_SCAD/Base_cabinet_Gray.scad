@@ -1,3 +1,5 @@
+// Nicolì Angelo 2024 - THIS CODE IS LICENSED AS GPL-2.0
+
 module Base_cabinet_Gray(){
 
     translate([0,0.01,3])
@@ -11,11 +13,9 @@ module Base_cabinet_Gray(){
     color("#c2c2c2")
     cube([0.1,0.15,2]);
 
-
     translate([2,2.5,0.8])
     color("#c2c2c2")
     cube([0.1,0.15,2]);
-
 
     translate([2,2,0])
     color("#000000")

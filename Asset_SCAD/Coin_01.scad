@@ -32,6 +32,6 @@ Coin_Core(Material[Mat]);
 
 }
 
-Coin();
+Coin(2);
 
 

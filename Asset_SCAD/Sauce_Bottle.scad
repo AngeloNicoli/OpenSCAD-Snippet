@@ -1,20 +1,26 @@
-module Sauce_Ketchup(){
+module Sauce_Bottle(Mat = 0){
 
-color("#ec0606"){
+Ketchup = "#ec0606"; 
+Mayonnaise = "#ffffee";
+Mustard = "#e5c54f";
+
+Material = [Ketchup,Mayonnaise,Mustard];
+
+
+color(Material[Mat]){
 translate([0,0,0.5])
 cylinder(5, 1,1, $fn = 30, center = true);
-}
 
 
-color("#ec0606"){
+
 translate([0,0,3])
 cylinder(0.3, 1,0.8, $fn = 30);
-}
 
-color("#ec0606"){
+
 translate([0,0,-2.5])
 cylinder(0.5,0.9,1, $fn = 30);
 }
+
 
 
 color("#f9f2f2"){
@@ -36,4 +42,4 @@ cylinder(1, 0.4,0.2, $fn = 30);
 
 }
 
-Sauce_Ketchup();
+Sauce_Bottle(2);

@@ -1,3 +1,5 @@
+// Nicolì Angelo 2024 - THIS CODE IS LICENSED AS GPL-2.0
+
 module Base_cabinet_Wood(){
 
     translate([0,0.01,3])
@@ -5,27 +7,25 @@ module Base_cabinet_Wood(){
     cube([2.3,3.98,0.2]);
 
     difference(){
-    color("#cdaa7d")
-    cube([2,4,3]);
+        color("#cdaa7d")
+        cube([2,4,3]);
 
-    translate([1.95,0.2,0.5])
-    color("#cdaa6f")
-    cube([0.1,1.4,2]);
+        translate([1.95,0.2,0.5])
+        color("#cdaa6f")
+        cube([0.1,1.4,2]);
 
-    translate([1.95 ,2.4,0.5])
-    color("#cdaa6f")
-    cube([0.1,1.4,2]);
+        translate([1.95 ,2.4,0.5])
+        color("#cdaa6f")
+        cube([0.1,1.4,2]);
     }
 
     translate([2,1.7,1.8])
     color("#8b6914")
     cube([0.1,0.15,0.7]);
 
-
     translate([2,2.2,1.8])
     color("#8b6914")
     cube([0.1,0.15,0.7]);
-
 
     translate([2,2,0])
     color("#000000")
