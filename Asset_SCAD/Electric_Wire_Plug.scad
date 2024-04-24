@@ -1,4 +1,4 @@
-
+module Electric_Wire_Plug(){
 color("white")
 translate([0,-1,0])
 cylinder(1,1,1, center= true, $fn = 30);
@@ -49,3 +49,7 @@ color("white")
 translate([0,-2,0])
 rotate([90,0,0])
 cylinder(1,0.4,0.4, center= true, $fn = 30);
+
+}
+
+Electric_Wire_Plug();

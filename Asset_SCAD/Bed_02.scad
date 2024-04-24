@@ -1,3 +1,4 @@
+module Bed_02(){
 color("#bbeedd")
 cube([1.86,1,0.29], center = true);
 
@@ -35,3 +36,8 @@ color("white"){
 translate([-0.7,0,0.2])
 cube([0.3,0.7,0.1], center = true);
 }
+
+
+}
+
+Bed_02();

@@ -6,19 +6,20 @@ module Fence_02(){
     cube([1,1,10],center = true);
     }
 
-    for (i=[-8:8])
-       translate([i*5,0,0])
-          staccionata();
+    for (i=[-8:8]){
+        translate([i*5,0,0])
+        staccionata();
           
-    color("#da6d42"){     
-    translate([0,0,-2])      
-    cube([83,0.5,1],center = true);}
+        color("#da6d42"){     
+        translate([0,0,-2])     
+        cube([83,0.5,1],center = true);}
 
-    color("#da6d42"){  
-    translate([0,0,2])
-    cube([83,0.5,1],center = rue);
+        color("#da6d42"){  
+        translate([0,0,2])
+        cube([83,0.5,1],center = true);
+        }
     }
-
+    
     color("#bd9476"){
     for (i=[-17:17])
 
