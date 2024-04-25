@@ -6,7 +6,7 @@ cylinder(7,16,16,$fn=30,center= true);
 
 for (i=[0:45:359]) {
     r = 14; // pattern radius
-    n = 10; // number of cars
+    n = 10; // number of teeth
 step = 360/n;
 for (i=[0:step:359]) {
     angle = i;
@@ -26,14 +26,6 @@ polygon(points=[[0,-4],[7,-2],[7,2],[0,4]]);
 }
 }
 }
-
-/*
-color("blue"){
-translate([14,0,0])
-%linear_extrude(8, scale = 1, center = true)
-polygon(points=[[0,-4],[7,-2],[7,2],[0,4]]);
-}
-*/
 
 }
 
