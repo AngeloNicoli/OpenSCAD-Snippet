@@ -112,7 +112,7 @@ Output of Software is not covered by GPL-2.0 (TERMS AND CONDITIONS CLAUSE 0)
 
 <img title="a title" alt="Alt text" src="/Image/Tootbrush.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Tower.png" width="192" height="120">
-<img title="a title" alt="Alt text" src="/Image/Traffic_Lightl.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Traffic_Light.png" width="192" height="120">
 
 
 <img title="a title" alt="Alt text" src="/Image/Vent_Grid.png" width="192" height="120">
