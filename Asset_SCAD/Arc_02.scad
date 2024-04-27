@@ -1,4 +1,4 @@
-// Nicolì Angelo 2024 - THIS CODE IS LICENSED AS GPL-2.0
+// Gengio (Nicolì Angelo) 2024: CODE LICENSED AS GPL-2.0
 
 module Arc_02(){
 

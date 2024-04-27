@@ -44,10 +44,10 @@ Gear_01();
 color("#777777")
 difference(){
 cylinder(15,13,13, center = true);
-cylinder(15,6,6, center = true);
+cylinder(15,4,4, center = true);
 
 }
 }
 color("#777777")
-cylinder(2,13,13, center = true);
+cylinder(4,13,13, center = true);
 
