@@ -1,5 +1,5 @@
-A COLLECTION OF OpenSCAD Scripts.
-There are some mechanical parts, but also furniture and models that can be used as base mesh for 3D animations/Game Design.
+A collection of OpenSCAD Scripts.
+There are some mechanical parts, as well as furniture and models that can be used as base mesh for 3D animations and game design.
 
 Number of ASSET: 81
 
