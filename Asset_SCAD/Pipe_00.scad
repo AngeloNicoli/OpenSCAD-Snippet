@@ -1,42 +1,21 @@
-// Nicolì Angelo 2023 - THIS CODE IS LICENSED AS GPL-2.0
-module Pipe_45(){
+module Pipe(){
 
-    module pipe(raggio,angolo){
-        color("#a8b0b2")
-        rotate([90,0,0])
-        rotate_extrude(angle=angolo, $fn = $preview? 90: 30) 
-        translate([3, 0, 0])
-        circle(r = raggio, $fn = $preview? 90: 30);
-    }
+    Pipe_Lenght = 15;
+    Pipe_Dext = 4;
+    Pipe_Dint = 3.5;
+
+    color("#a8b0b2")
+    linear_extrude(Pipe_Lenght, $fn = $preview? 90: 30) 
 
     difference(){
-       translate([0,0])
-       pipe(1,45);
-       
-       rotate([0,10,0])
-       translate([0,0])
-       pipe(0.8,60);
-     }
-
-    module repeat(){
-        difference(){
-         for (i =[-1:1]){
-             translate([0,5*i,0])
-             ring(1,90);
-         }
-
-         for (i =[-1:1]){
-            rotate([0,10,0])
-             translate([0,5*i,0])
-             ring(0.8,110);
-             }
-         
-        }
+    circle(d = Pipe_Dext, $fn = $preview? 90: 30);
+    circle(d = Pipe_Dint, $fn = $preview? 90: 30);
     }
 
 }
 
-Pipe_45();
+Pipe();
+
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License
