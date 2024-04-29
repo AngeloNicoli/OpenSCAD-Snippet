@@ -3,7 +3,7 @@ There are some mechanical parts, as well as furniture and models that can be use
 
 Number of ASSET: 81
 
-RELEASED under MIT license
+License: MIT license
 
 <p float="left">
 
