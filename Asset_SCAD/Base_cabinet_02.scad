@@ -1,48 +1,37 @@
-module Abacus(Scl = [1,1,1]){   // Scl -> Scale of Object
+module Base_cabinet_02(){
 
-    module abacus_sphere(){
+    translate([0,0.01,3])
+    color("#8b6914")
+    cube([2.3,3.98,0.2]);
 
-        color("#A1662F"){
-        translate([0,0,8])
-        cylinder(18,0.3,0.3, center = true);
-        }
+    difference(){
+        color("#cdaa7d")
+        cube([2,4,3]);
 
-        color("#281c14")
-        
-        for (i = [-0.3:1.3:13.7]){
-            translate([0,0,i])
-            scale([1,1,0.7])
-            sphere(r = 1, $fn=20);
-        }
+        translate([1.95,0.2,0.5])
+        color("#cdaa6f")
+        cube([0.1,1.4,2]);
+
+        translate([1.95 ,2.4,0.5])
+        color("#cdaa6f")
+        cube([0.1,1.4,2]);
     }
-         
-    scale(Scl){  
-    
-    for (i = [-0:2.3:21]){
-        translate([0,i,0])
-        abacus_sphere();
-    }
-  
-    // Create Wood Structure    
-    color("#A1662F"){ 
-        translate([-0.5,-4,17])
-        cube([1,28,1]);
 
-        translate([-0.5,-4,-2])
-        cube([1,28,1]);
-        
-        translate([-0.5,24,-2])
-        cube([1,1,20]);
+    translate([2,1.7,1.8])
+    color("#8b6914")
+    cube([0.1,0.15,0.7]);
 
-        translate([-0.5,-4,-2])
-        cube([1,1,20]);
-        }
-        
-    }
+    translate([2,2.2,1.8])
+    color("#8b6914")
+    cube([0.1,0.15,0.7]);
+
+    translate([2,2,0])
+    color("#000000")
+    cube([0.01,0.01,3]);
+
 }
 
-Abacus(Scl = [0.1,0.1,0.1]);
-
+Base_cabinet_02();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License

@@ -1,47 +1,29 @@
-module Abacus(Scl = [1,1,1]){   // Scl -> Scale of Object
 
-    module abacus_sphere(){
+module Base_cabinet_01(){
 
-        color("#A1662F"){
-        translate([0,0,8])
-        cylinder(18,0.3,0.3, center = true);
-        }
+    color("#9e9e9e")
+    cube([2,4,3], center = true);              // Main Body
 
-        color("#281c14")
-        
-        for (i = [-0.3:1.3:13.7]){
-            translate([0,0,i])
-            scale([1,1,0.7])
-            sphere(r = 1, $fn=20);
-        }
+    translate([0.15,0.0,1.6]){       
+        color("#c2c2c2")
+        cube([2.3,3.98,0.2], center = true);   // Upper part
     }
-         
-    scale(Scl){  
-    
-    for (i = [-0:2.3:21]){
-        translate([0,i,0])
-        abacus_sphere();
+    translate([1.05,0.4,0]){                
+        color("#c2c2c2")
+        cube([0.1,0.15,2], center = true);    // Handle
     }
-  
-    // Create Wood Structure    
-    color("#A1662F"){ 
-        translate([-0.5,-4,17])
-        cube([1,28,1]);
-
-        translate([-0.5,-4,-2])
-        cube([1,28,1]);
-        
-        translate([-0.5,24,-2])
-        cube([1,1,20]);
-
-        translate([-0.5,-4,-2])
-        cube([1,1,20]);
-        }
-        
+    translate([1.05,-0.4,0]){               
+        color("#c2c2c2")
+        cube([0.1,0.15,2], center = true);    // Handle
     }
+    translate([1.005,0,0]){       
+        color("#000000")
+        cube([0.01,0.01,3], center = true);   // Black Line
+    }
+
 }
 
-Abacus(Scl = [0.1,0.1,0.1]);
+Base_cabinet_01();
 
 
 // Written by Nicolì Angelo (Gengio) 2024: 
