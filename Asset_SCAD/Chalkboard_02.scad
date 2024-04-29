@@ -1,25 +1,37 @@
-module Bricks(){
-    colors = ["#cb6b6b","#dd7d7d","#9e3333","#842020"];
 
-    single_rand = rands(5,10,1)[0];
-    single_rand2 = rands(5,10,1)[0];
+module Chalkboard_02(){
 
-    index_color = rands(0,3,1)[0]; // get a single number
-
-    color(colors[index_color])
-    linear_extrude(height = 3){
-    square([single_rand,single_rand2]);
+    union(){
+        color("#c87d3a")
+        cube([2,0.1,1],center =true);
+        
+        color("#424e63")
+        cube([1.8,0.102,0.8],center =true);
+        
+        color("#c87d3a"){
+            translate([1,0,-0.5])
+            cube([0.1,0.1,0.8],center =true);            
+        }
+        color("#c87d3a"){
+            translate([-1,0,-0.5])
+            cube([0.1,0.1,0.8],center =true);
+        }        
+        color("#c87d3a"){
+            translate([-1,0,-0.9])
+            cube([0.1,0.8,0.1],center =true);
+        }
+        color("#c87d3a"){
+            translate([1,0,-0.9])
+            cube([0.1,0.8,0.1],center =true);
+        }
     }
 }
 
-Bricks();
+Chalkboard_02();
 
-translate([10,0,0])
-Bricks();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License
-
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

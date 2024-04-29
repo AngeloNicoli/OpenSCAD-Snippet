@@ -1,25 +1,49 @@
-module Bricks(){
-    colors = ["#cb6b6b","#dd7d7d","#9e3333","#842020"];
+module Fireplace_01(){   
+    translate([0,0,0.1])
+    color("gray")
+    cube([20,10,0.4], center= true);
 
-    single_rand = rands(5,10,1)[0];
-    single_rand2 = rands(5,10,1)[0];
+    difference(){
+    
+        translate([0,0,0.2+5])
+        color("#b65454")
+        cube([16,6,10], center= true);
 
-    index_color = rands(0,3,1)[0]; // get a single number
 
-    color(colors[index_color])
-    linear_extrude(height = 3){
-    square([single_rand,single_rand2]);
+        translate([0,-2,4])
+        color("#842020")
+        cube([14,5,8], center= true);
+
     }
+
+    translate([0,-1,0.4])
+    color("#786565")
+    cube([15,3,0.5], center= true);
+
+    translate([0,0,10.5])
+    color("gray")
+    cube([18,8,1], center= true);
+
+    translate([0,0,11.5])
+    color("black")
+    cube([20,10,1], center= true);
+
+    translate([0,0,11.5])
+    color("#b65454")
+    linear_extrude(height = 8, scale = 0.8) 
+    square([9,7], center = true);
+
+    translate([0,0,19.5])
+    color("#b65454")
+    linear_extrude(height = 15, scale = 1) 
+    square([9 *0.8,7 *0.8], center = true);
+
 }
 
-Bricks();
-
-translate([10,0,0])
-Bricks();
+Fireplace_01();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License
-
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
