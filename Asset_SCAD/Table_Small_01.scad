@@ -1,28 +1,54 @@
-module Wall_01(col = 0, rot = 0){
+module Table_Small_01(){
 
-    rotate([0,0,90 * rot]){
-    
-    translate([-0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    color("#295f48")
-    translate([0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    
-    color("#b2b2b2"){
-    cube([0.1,1,1.98], center= true);
-    
-    translate([0.095,0,-0.9])    
-    color("gray")
-    cube([0.05,1,0.2], center= true);
+    color("#954520")
+    linear_extrude(height = 0.10)
+
+    intersection(){
+
+    circle(1, $fn=50);
+
+    square(1);
+
+    }
+
+    color("#4f200f"){
+    translate([0.2,0.2,-0.9])
+    cylinder(0.9,0.08,0.08, $fn =30);
+
+    translate([0.7,0.2,-0.9])
+    cylinder(0.9,0.08,0.08, $fn =30);
+
+    translate([0.2,0.7,-0.9])
+    cylinder(0.9,0.08,0.08, $fn =30);
+    }
+
+    translate([0,0,-1]){
+    color("#954520")
+    linear_extrude(height = 0.10)
+
+    intersection(){
+
+    circle(1, $fn=50);
+
+    square(1);
+
+    }
+
+    color("#4f200f"){
+    translate([0.2,0.2,-0.5])
+    cylinder(0.5,0.08,0.08, $fn =30);
+
+    translate([0.7,0.2,-0.5])
+    cylinder(0.5,0.08,0.08, $fn =30);
+
+    translate([0.2,0.7,-0.5])
+    cylinder(0.5,0.08,0.08, $fn =30);
     }
     }
+
 }
 
-Wall_01();
+Table_Small_01();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License

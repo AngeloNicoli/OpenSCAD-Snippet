@@ -7,11 +7,11 @@ License: MIT license
 
 <p float="left">
 
-<img title="a title" alt="Alt text" src="/Image/Abacus.png" width="192" height="120">
-<img title="a title" alt="Alt text" src="/Image/Arc_01.png" width="192" height="120">
-<img title="a title" alt="Alt text" src="/Image/Arc_02.png" width="192" height="120">
-<img title="a title" alt="Alt text" src="/Image/Base cabinet (Gray).png" width="192" height="120">
-<img title="a title" alt="Alt text" src="/Image/Base cabinet (Wood).png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
 
 
 <img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120">

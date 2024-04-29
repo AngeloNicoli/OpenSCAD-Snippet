@@ -1,28 +1,41 @@
-module Wall_01(col = 0, rot = 0){
+module Table_03(){
 
-    rotate([0,0,90 * rot]){
-    
-    translate([-0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    color("#295f48")
-    translate([0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    
-    color("#b2b2b2"){
-    cube([0.1,1,1.98], center= true);
-    
-    translate([0.095,0,-0.9])    
-    color("gray")
-    cube([0.05,1,0.2], center= true);
+    Table_Leg = [1,1,10];
+
+    Leg_Distance_x = 20;
+    Leg_Distance_y = Leg_Distance_x;
+    Upper_Part_Size = Leg_Distance_x * 0.8;
+    Upper_Part_Height = 1;
+
+
+
+    color("#cdaa7d"){
+    // Legs 
+    translate([Leg_Distance_x*0.5,Leg_Distance_y*0.5,0])
+    cube([Table_Leg[0],Table_Leg[1],Table_Leg[2]],center=true);
+
+    translate([-Leg_Distance_x*0.5,Leg_Distance_y*0.5,0])
+    cube([Table_Leg[0],Table_Leg[1],Table_Leg[2]],center=true);
+
+    translate([-Leg_Distance_x*0.5,-Leg_Distance_y*0.5,0])
+    cube([Table_Leg[0],Table_Leg[1],Table_Leg[2]],center=true);
+
+    translate([Leg_Distance_x*0.5,-Leg_Distance_y*0.5,0])
+    cube([Table_Leg[0],Table_Leg[1],Table_Leg[2]],center=true);
+
+    Table_Upper = [Leg_Distance_x+Table_Leg[0],Leg_Distance_y + Table_Leg[1],1];
+    Table_Height = Table_Leg[2]*0.5;
+
+    // Circle
+    translate([0,0,Table_Height]){
+    cylinder(r = Upper_Part_Size, h = Upper_Part_Height,$fn = 60 , center=true);
     }
+
     }
+
 }
 
-Wall_01();
+Table_03();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License

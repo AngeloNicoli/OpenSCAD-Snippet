@@ -1,28 +1,39 @@
-module Wall_01(col = 0, rot = 0){
+module Weights_01(){
 
-    rotate([0,0,90 * rot]){
-    
-    translate([-0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    color("#295f48")
-    translate([0.06,0,0])
-    color("white")
-    cube([0.02,1,2], center= true);
-    
-    
-    color("#b2b2b2"){
-    cube([0.1,1,1.98], center= true);
-    
-    translate([0.095,0,-0.9])    
-    color("gray")
-    cube([0.05,1,0.2], center= true);
+    module regular_polygon(order = 6, r=1){
+         angles=[ for (i = [0:order-1]) i*(360/order) ];
+         coords=[ for (th=angles) [r*cos(th), r*sin(th)] ];
+         polygon(coords);
     }
+     
+     
+    module weight(){ 
+    color("#a8b0b2")
+    linear_extrude(height= 1)
+    regular_polygon(order = 6);
+     
+    translate([0,0,1])
+    color("#a8b0b2")
+    linear_extrude(height= 0.2, scale = 0.8)
+    regular_polygon(order = 6);
+     
+    translate([0,0,0])
+    rotate([0,180,0])
+    color("#a8b0b2")
+    linear_extrude(height= 0.2, scale = 0.8)
+    regular_polygon(order = 6);
     }
+     
+     weight(); 
+     translate([0,0,5])
+     weight();
+     
+     color("#3b3b3b")
+     cylinder(5,0.3,0.3);
+ 
 }
-
-Wall_01();
+ 
+Weights_01();
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License
