@@ -1,4 +1,6 @@
-SNIPPET COLLECTION 
+A COLLECTION OF OpenSCAD Scripts.
+There are some mechanical parts, but also furniture and models that can be used as base mesh for 3D animations/Game Design.
+
 Number of ASSET: 81
 
 RELEASED under MIT license
