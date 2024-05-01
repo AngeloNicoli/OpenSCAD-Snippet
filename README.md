@@ -47,7 +47,7 @@ License: MIT license
 
 <img title="a title" alt="Alt text" src="/Image/Eyebolt.png" width="192" height="120">
 
-<img title="a title" alt="Alt text" src="/Image/Fence.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Fence_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Fence_02.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Fireplace.png" width="192" height="120">
 
