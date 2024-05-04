@@ -1,7 +1,7 @@
 A collection of OpenSCAD Scripts.
 There are some mechanical parts, as well as furniture and models that can be used as base mesh for 3D animations and game design.
 
-Number of ASSET: 83
+Number of ASSET: 86
 
 License: MIT license
 
@@ -10,6 +10,9 @@ License: MIT license
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
+
+<img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="192" height="120">
+
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
 
@@ -109,6 +112,7 @@ License: MIT license
 <img title="a title" alt="Alt text" src="/Image/Street_05.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Street_06.png" width="192" height="120">
 
+<img title="a title" alt="Alt text" src="/Image/Sword_01.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Table.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Table_Office.png" width="192" height="120">
@@ -122,6 +126,9 @@ License: MIT license
 
 
 <img title="a title" alt="Alt text" src="/Image/Vent_Grid.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Walking_Stick.png" width="192" height="120">
+
+
 <img title="a title" alt="Alt text" src="/Image/Wall_01.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Wall_02.png" width="192" height="120">
