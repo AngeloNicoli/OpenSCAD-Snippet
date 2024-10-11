@@ -5,6 +5,9 @@ Number of ASSET: 90
 
 License: MIT license
 
+[a relative link](Page2.md)
+
+
 <p float="left">
 
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
