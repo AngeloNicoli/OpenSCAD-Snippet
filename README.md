@@ -110,6 +110,9 @@ License: MIT license
 <img title="a title" alt="Alt text" src="/Image/Screw.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Shaft_01.png" width="192" height="120">
 
+<img title="a title" alt="Alt text" src="/Image/Sign_01.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Sign_02.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Sign_03.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Soda_Cup_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Sofa.png" width="192" height="120">

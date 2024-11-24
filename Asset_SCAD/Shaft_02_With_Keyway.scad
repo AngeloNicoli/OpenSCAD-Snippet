@@ -11,7 +11,7 @@ module Shaft_02(){
 
 }
  
- 
+
 module Key(){
 
     Key_Lenght = 100;
@@ -33,13 +33,16 @@ module Key(){
 }
 
 difference(){
-
-Shaft_02();
-translate([0,0,14])
-rotate([0,0,90])
-Key();
-
+    Shaft_02();
+        translate([0,0,14]){
+            rotate([0,0,90]){
+                Key();
+            }
+        }
 }
+
+
+
 
 
 
