@@ -1,50 +1,26 @@
-module Piece_01(){
+module Key(){
 
-    module Mech_Piece_01(){
-
-    Key_Lenght = 10;
+    Key_Lenght = (10);
     Key_Height = 10;
     Key_Width = 15;
 
     color("#a8b0b2")
     union(){
         translate([1,0,0])
-        cylinder(5,0.5,0.5, $fn=40, center=true);
+        cylinder(0.5,0.5,0.5, $fn=40, center=true);
 
         translate([-1,0,0])
-        cylinder(5,0.5,0.5, $fn=40, center=true);
+        cylinder(0.5,0.5,0.5, $fn=40, center=true);
 
-        cube([2,1,5],center = true);
-        }
-
+        cube([2,1,0.5],center = true);
     }
-    difference(){
 
-        minkowski(){
-
-            cube([6,6,0.5],center = true);
-
-            translate([0,0,0], $fn = 40)
-            cylinder(0.5,2,2);
-        }
-        translate([-2.5,3,0]){
-        Mech_Piece_01();
-        }
-        translate([-2.5,-3,0]){
-        Mech_Piece_01();
-        }
-        translate([2.5,-3,0]){
-        Mech_Piece_01();
-        }
-        translate([2.5,3,0]){
-        Mech_Piece_01();
-        }
-    }
 
 }
 
-color("gray")
-Piece_01();
+rotate([$t*100,0,0])
+Key();
+
 
 
 // Written by Nicolì Angelo (Gengio) 2024: 
@@ -55,3 +31,4 @@ Piece_01();
 //The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 //THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

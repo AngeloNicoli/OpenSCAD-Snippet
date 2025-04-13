@@ -31,6 +31,7 @@ module Piece_02(){
     }
 }
 
+color("gray")
 Piece_02();
 
 

@@ -90,6 +90,11 @@ License: MIT license
 <img title="a title" alt="Alt text" src="/Image/Lever_Handle.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Mallet.png" width="192" height="120">
 
+<img title="a title" alt="Alt text" src="/Image/Mech_Piece_01.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Mech_Piece_02.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Mech_Piece_03.png" width="192" height="120">
+
+
 
 <img title="a title" alt="Alt text" src="/Image/Notebook.png" width="192" height="120">
 
