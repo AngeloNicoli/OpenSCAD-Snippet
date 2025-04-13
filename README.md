@@ -1,7 +1,7 @@
 A collection of OpenSCAD Scripts.
 There are some mechanical parts, as well as furniture and models that can be used as base mesh for 3D animations and game design.
 
-Number of ASSET: 90
+Number of ASSET: 106
 
 License: MIT license
 
@@ -67,6 +67,9 @@ License: MIT license
 
 <img title="a title" alt="Alt text" src="/Image/Floor_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Gear.png" width="192" height="120">
+<img title="a title" alt="Alt text" src="/Image/Gear_02.png" width="192" height="120">
+
+
 <img title="a title" alt="Alt text" src="/Image/Grid_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Hexagon_socket_screw_keys.png" width="192" height="120">
 
