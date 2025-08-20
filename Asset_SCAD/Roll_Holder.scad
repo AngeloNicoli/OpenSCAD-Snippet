@@ -3,7 +3,7 @@ color("#A1662F")
 cylinder(11,1,1, $fn = 30, center = true);
 
 color("#A1662F")
-translate([0,0,-5]){
+translate([0,0,-5.1]){
 cylinder(1,3.5,3.5, $fn = 30, center = true);
 }
 

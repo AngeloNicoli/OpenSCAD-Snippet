@@ -1,6 +1,41 @@
 
 
-Coin_01(Mat = 2);
+module Mech_Piece_01(){
+
+color("#a8b0b2")
+union(){
+    translate([0,0,0])
+    cylinder(3,0.5,0.5, $fn=40, center=true);
+}
+}
+
+difference(){
+
+hull(){
+translate([5,0,0])
+circle(r = 1, $fn = 30);
+
+translate([0,5,0])
+circle(r = 1, $fn = 30);
+
+translate([0,-5,0])
+circle(r = 1, $fn = 30);
+
+}
+
+
+translate([1,-3,0]){
+rotate([0,0,90])
+Mech_Piece_01();
+}
+
+translate([1,3,0]){
+rotate([0,0,90])
+Mech_Piece_01();
+}
+
+}
+
 
 // Written by Nicolì Angelo (Gengio) 2024: 
 // MIT License
@@ -10,3 +45,4 @@ Coin_01(Mat = 2);
 //The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 //THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

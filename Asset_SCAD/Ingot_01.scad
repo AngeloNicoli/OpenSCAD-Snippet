@@ -14,4 +14,4 @@ module ingot(Mat = 0){
 
 }
 
-ingot(Mat = 1);
+ingot(Mat = 2);
