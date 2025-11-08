@@ -2,7 +2,7 @@ module Beam_T(par,Len = 1000){
 
 //Every Beam is defined by: b (size), h (height) and a(thickness)
 
-Paramet = [[45,45,6,5],[20,30,40]];   // b,h and a
+Paramet = [[45,45,6],[20,30,40]];   // b,h and a
 
 b = Paramet[par][0];
 h = Paramet[par][1];
