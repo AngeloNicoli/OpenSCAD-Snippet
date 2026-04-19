@@ -9,7 +9,7 @@ License: MIT license
 
 
 
-<br> Abacus, Arc_01,Arc_02, Arrow_01  </br>
+Abacus, Arc_01,Arc_02, Arrow_01
 <p float="left">
 
 
@@ -20,7 +20,7 @@ License: MIT license
 
 </p>
 
-<br> Abacus, Arc_01,Arc_02, Arrow_01  </br>
+<b> Abacus, Arc_01,Arc_02, Arrow_01  </b>
 <p float="left">
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
