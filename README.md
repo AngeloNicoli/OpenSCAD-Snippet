@@ -16,8 +16,12 @@ License: MIT license
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
-
 <img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="192" height="120">
+
+</p>
+
+<br> Abacus, Arc_01,Arc_02, Arrow_01  </br>
+<p float="left">
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
