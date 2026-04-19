@@ -20,12 +20,11 @@ Abacus, Arc_01,Arc_02, Arrow_01
 
 </p>
 
-<b> Abacus, Arc_01,Arc_02, Arrow_01  </b>
+<b> Base cabinet (Gray), Base cabinet (Wood),Beam_C, Bed_01 </b>
 <p float="left">
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
-
 
 <img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Bed_01.png" width="192" height="120">
