@@ -1,8 +1,17 @@
-module Flange_02(){
-    color("#c0c6c7")
+module Flange_02(Size = 0){
+    color("#c0c6c7");
+    Dext= 100;
+    Thickness = 10;
     
+    //echo(DN);
+    DN10 =[100,10];     
+    DN25 = [120,15];
+    DN50 = [130,20];
+
+    Flange = [DN10,DN25,DN50];
+
     difference(){
-        cylinder(10,100,100, $fn = $preview ? 32 : 64);
+        cylinder(Flange[Size][1],Flange[Size][0],Flange[Size][0], $fn = $preview ? 32 : 64);
         r = 80;
         for (i=[0:90:359]) {
             translate([r*cos(i),r*sin(i),-1])
@@ -11,7 +20,7 @@ module Flange_02(){
     }
 }
 
-Flange_02();
+Flange_02(Size = 0);
 
 
 // Written by Nicolì Angelo (Gengio) 2024: 
