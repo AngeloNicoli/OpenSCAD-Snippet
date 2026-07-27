@@ -11,16 +11,12 @@ License: MIT license
 <p align="center">
 Abacus
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
-
-
 <p align="center">
 Arc_01
 <img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
 </p>
-
 Arc_02
 <img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
-
 Arrow_01
 <img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="192" height="120">
 
