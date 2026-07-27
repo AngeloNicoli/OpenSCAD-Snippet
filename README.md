@@ -11,7 +11,7 @@ License: MIT license
 |---|---|---|---|
 | <img src="Image/Abacus.png" width="180"> | <img src="Image/Arc_01.png" width="180"> | <img src="Image/Arc_02.png" width="180"> | <img src="Image/Arrow_01.png" width="180"> |
 | **Abacus** | **Arc 01** | **Arc 02** | **Arrow 01** |
-| <img src="Image/Base cabinet (Gray).png" width="180"> | <img src="Base cabinet (Wood)png" width="180"> | <img src="/Image/Beam_C.png" width="180"> | <img src="/Image/Bed_01.png" width="180"> |
+| <img src="Image/Base cabinet (Gray).png" width="180"> | <img src="Base cabinet (Wood).png" width="180"> | <img src="/Image/Beam_C.png" width="180"> | <img src="/Image/Bed_01.png" width="180"> |
 | **Box 01** | **Box 02** | **Circle 01** | **Cone 01** |
 
 
@@ -20,6 +20,8 @@ License: MIT license
 
 <img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Bed_01.png" width="192" height="120">
+
+
 <img title="a title" alt="Alt text" src="/Image/Bed_02.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Bench_01.png" width="192" height="120">
