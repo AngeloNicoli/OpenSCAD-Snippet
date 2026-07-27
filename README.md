@@ -10,23 +10,16 @@ License: MIT license
 
 
 Abacus, Arc_01,Arc_02, Arrow_01
-<p float="left">
-</p>
 
-<table>
-  <tr>
+
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="192" height="120">
-  </tr>
-</table>
 
 
-</p>
 
 <b> Base cabinet (Gray), Base cabinet (Wood),Beam_C, Bed_01 </b>
-<p float="left">
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
@@ -173,4 +166,3 @@ Abacus, Arc_01,Arc_02, Arrow_01
 <img title="a title" alt="Alt text" src="/Image/Wood_Crate.png" width="192" height="120">
 
 
-</p>
