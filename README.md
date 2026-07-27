@@ -10,15 +10,13 @@ License: MIT license
 
 <p align="center">
 Abacus
-<img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
-<p align="center">
+<img title="a title" alt="Alt" src="/Image/Abacus.png" width="23%">
 Arc_01
-<img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
-</p>
+<img title="a title" alt="Alt" src="/Image/Arc_01.png" width="23%">
 Arc_02
-<img title="a title" alt="Alt" src="/Image/Arc_02.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Arc_02.png" width="23%">
 Arrow_01
-<img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Arrow_01.png" width="23%">
 
 </p>
 
