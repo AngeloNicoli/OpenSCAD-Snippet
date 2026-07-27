@@ -16,36 +16,29 @@ License: MIT license
 
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
-<img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120">
-
-<img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120">
+<img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120"> <img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120"> 
 <img title="a title" alt="Alt text" src="/Image/Bed_01.png" width="192" height="120">
 
-
 <img title="a title" alt="Alt text" src="/Image/Bed_02.png" width="192" height="120">
-
 <img title="a title" alt="Alt text" src="/Image/Bench_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Bench_02.png" width="192" height="120">
-
 <img title="a title" alt="Alt text" src="/Image/Bookshelf_01.png" width="192" height="120">
+
 <img title="a title" alt="Alt text" src="/Image/Bookshelf_02.png" width="192" height="120">
-
 <img title="a title" alt="Alt text" src="/Image/Bricks.png" width="192" height="120">
-
 <img title="a title" alt="Alt text" src="/Image/Building_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Building_02.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Chair_01.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Chair_02.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Chair_03.png" width="192" height="120">
-
 <img title="a title" alt="Alt text" src="/Image/Chalkboard.png" width="192" height="120">
+
 <img title="a title" alt="Alt text" src="/Image/Chalkboard_Support.png" width="192" height="120">
-
-
 <img title="a title" alt="Alt text" src="/Image/Circular_Blade.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Coin_01_Mat00.png" width="192" height="120">
 <img title="a title" alt="Alt text" src="/Image/Coin_01_Mat01.png" width="192" height="120">
+
 <img title="a title" alt="Alt text" src="/Image/Coin_01_Mat02.png" width="192" height="120">
 
 <img title="a title" alt="Alt text" src="/Image/Cone_01.png" width="192" height="120">
