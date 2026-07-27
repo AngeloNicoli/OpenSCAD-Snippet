@@ -15,10 +15,7 @@ License: MIT license
 | **Box 01** | **Box 02** | **Circle 01** | **Cone 01** |
 
 | | | | |
-|<img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">|
-<img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120"> |
-<img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120"> 
-<img title="a title" alt="Alt text" src="/Image/Bed_01.png" width="192" height="120">|
+|<img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">| <img title="a title" alt="Alt" src="/Image/Base cabinet (Wood).png" width="192" height="120"> | <img title="a title" alt="Alt text" src="/Image/Beam_C.png" width="192" height="120"> | <img title="a title" alt="Alt text" src="/Image/Bed_01.png" width="192" height="120">|
 
 
 <img title="a title" alt="Alt text" src="/Image/Bed_02.png" width="192" height="120">
