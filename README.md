@@ -8,12 +8,12 @@ License: MIT license
 [a relative link](Page2.md)
 
 
-<p align="center"
+<p align="center">
 Abacus
 <img title="a title" alt="Alt" src="/Image/Abacus.png" width="192" height="120">
 
 
-<p align="center"
+<p align="center">
 Arc_01
 <img title="a title" alt="Alt" src="/Image/Arc_01.png" width="192" height="120">
 </p>
