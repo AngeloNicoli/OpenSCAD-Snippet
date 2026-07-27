@@ -15,10 +15,10 @@ License: MIT license
 | **Box 01** | **Box 02** | **Circle 01** | **Cone 01** |
 
 <p>
-  <img src="Image/Abacus.png" width="22%">
-  <img src="Image/Arc_01.png" width="22%">
-  <img src="Image/Arc_02.png" width="22%">
-  <img src="Image/Arrow_01.png" width="22%">
+  <img src="Image/Abacus.png" width="10%">
+  <img src="Image/Arc_01.png" width="10%">
+  <img src="Image/Arc_02.png" width="10%">
+  <img src="Image/Arrow_01.png" width="10">
 </p>
 
 <img title="a title" alt="Alt" src="/Image/Base cabinet (Gray).png" width="192" height="120">
